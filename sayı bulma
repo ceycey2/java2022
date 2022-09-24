@@ -1,0 +1,19 @@
+
+package java2022;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) { 
+        Scanner giris= new Scanner (System.in);
+       int []sayilar= {1,2,3,4,5,6,7,8,9,10,15,18,17,30,34};
+        System.out.print("aramak istediğiniz sayıyı giriniz.");
+       int arananSayi= giris.nextInt();
+     
+       for(int sayi:sayilar){
+       if(arananSayi==sayi){
+           System.out.println("aranan sayı dizinin içinde vardır.");
+       break;}
+       else{
+           System.out.println("aranan sayı dizinin içinde yoktur.");}}
+      
+    }   
+}
