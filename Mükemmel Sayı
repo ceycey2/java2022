@@ -1,0 +1,22 @@
+
+package java2022;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) { 
+        Scanner giris= new Scanner (System.in);
+        System.out.println("bir sayı giriniz.");
+        int sayi= giris.nextInt();
+        int toplam=0;
+        for(int i=1;i<sayi;i++){
+        if(sayi%i==0){
+        toplam=toplam+i;}}
+        if(sayi==toplam){
+            System.out.println("girilen sayı mükemmel sayıdır.");
+        }
+        else{
+            System.out.println("girilen sayı mükemmel sayı değildir.");
+     }
+            
+         
+    }
+}
