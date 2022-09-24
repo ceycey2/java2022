@@ -1,0 +1,26 @@
+package java2022;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) { 
+        Scanner giris= new Scanner (System.in);
+        System.out.println("sayı 1'i giriniz:");
+        int sayi1 = giris.nextInt();
+        System.out.println("sayı 2'yi giriniz:");
+        int sayi2 = giris.nextInt();
+        System.out.println("sayı 3'ü giriniz:");
+        int sayi3 = giris.nextInt();
+        int enBuyukSayi=sayi3;
+        if(enBuyukSayi<sayi1){
+        enBuyukSayi=sayi1;
+                 }
+        else if (enBuyukSayi<sayi2){
+        enBuyukSayi=sayi2;
+        }
+        else{
+            enBuyukSayi=enBuyukSayi;
+         }
+        System.out.println("en büyük sayı:"+enBuyukSayi);
+     
+    }
+    
+}
