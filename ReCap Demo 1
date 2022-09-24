@@ -1,3 +1,4 @@
+
 package java2022;
 import java.util.Scanner;
 public class Main {
@@ -16,9 +17,7 @@ public class Main {
         else if (enBuyukSayi<sayi2){
         enBuyukSayi=sayi2;
         }
-        else{
-            enBuyukSayi=enBuyukSayi;
-         }
+       
         System.out.println("en büyük sayı:"+enBuyukSayi);
      
     }
